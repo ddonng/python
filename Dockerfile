@@ -1,3 +1,3 @@
 FROM python:latest
 
-VOLUME ["/home"]
+VOLUME ["/home/python"]
