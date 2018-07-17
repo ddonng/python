@@ -1,3 +1,5 @@
-FROM python:latest
+FROM continuumio/anaconda3
 
-VOLUME ["/home/python"]
+RUN conda install scrapy
+
+VOLUME ["/home"]
