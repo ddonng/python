@@ -2,6 +2,6 @@ FROM continuumio/anaconda3
 
 RUN conda install scrapy
 RUN conda install pymongo
-ADD requirements.text requirements.text
+ADD requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 VOLUME ["/home"]
